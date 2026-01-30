@@ -1,0 +1,14 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "currency_exchange_rd",
+	"compatibility_date": "2025-04-03",
+	"main": "./src/index.ts",
+	"d1_databases": [
+		{
+			"binding": "currency_exchange",
+			"database_name": "currency-exchange",
+			"database_id": "0125cb8f-f4e7-4e3f-8a5e-b6ce2f2e1ce3",
+			"remote": true
+		}
+	]
+}
